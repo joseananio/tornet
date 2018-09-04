@@ -10,7 +10,8 @@ npm start
 
 # Entry node
 The entry node can be duplicated. You have to modify the paramenters in index.js to give unique IP and port. loopback IP addresses can be used in testing phase
-For now, it keeps a list of the relays hard-coded. Some form of routing and discovery will be implemented to get and store relays
+For now, it keeps a list of the relays hard-coded. Some form of routing and discovery will be implemented to get and store relays.
+It doubles as an express app. this would usually be the tor browser. You have to pass the destination url as paramenter
 
 # Relay Node
 The same as above applies to the relay node. This is where you would want to go hard on the duplication since more relays improve simulation.
