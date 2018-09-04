@@ -1,0 +1,20 @@
+{
+  "name": "client1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon http.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "flatted": "^0.2.2",
+    "http-proxy": "^1.17.0",
+    "node-rsa": "^1.0.0"
+  }
+}
